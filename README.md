@@ -12,6 +12,7 @@ In the future I would still like to add:
 - GPS service to the location for use not restricted to just Copenhagen (lol)
 - Add a splash screen while the application is retrieving the data
 - Add a setting to make the app adaptable for people that are very heat- or cold-resistant
+- Testing
 
 # Screenshot
 
