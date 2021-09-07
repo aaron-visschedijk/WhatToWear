@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="bottom"
+        android:layout_weight="5"
+        android:text="Location: Copenhagen, Denmark" />
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/someID2"
+        android:name="com.example.whattowear.MainForecastFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/someID"
+        android:name="com.example.whattowear.ForecastsListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"/>
+
+
+</LinearLayout>
